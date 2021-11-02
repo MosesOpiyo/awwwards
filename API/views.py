@@ -17,3 +17,4 @@ class VoteList(generics.CreateAPIView):
 class VoteDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Votes.objects.all()
     serializer_class = VoteSerializer
+
